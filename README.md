@@ -72,7 +72,7 @@ For each haplotype:
 
 GenomeScope estimated genome properties from the k-mer frequency spectrum (k=31, ploidy=2). The two peaks at ~25x and ~50x coverage correspond to the heterozygous and homozygous k-mer components, confirming diploidy.
 
-![GenomeScope Linear Plot](Galaxy76-[GenomeScope_on_dataset_54_Linear_plot].png)
+![GenomeScope Linear Plot](Galaxy76-[GenomeScope%20on%20dataset%2054%20Linear%20plot].png)
 
 | Parameter | Value |
 |:---|:---|
@@ -96,7 +96,7 @@ Merqury assessed per-base accuracy (QV) and k-mer completeness by comparing asse
 
 Haplotype 2 achieved a perfect QV score with zero erroneous k-mers. The combined assembly QV of 82.60 far exceeds the Q40 threshold considered reference-grade.
 
-The full QV statistics are available in [`Merqury_QV_stats/`](Merqury_QV_stats/).
+The QV statistics files are included in this repository: [`output_merqury.assembly_01.tabular`](output_merqury.assembly_01.tabular), [`output_merqury.assembly_02.tabular`](output_merqury.assembly_02.tabular), [`output_merqury.tabular`](output_merqury.tabular).
 
 ---
 
@@ -149,11 +149,10 @@ The diagonal pattern of dense, discrete squares confirms successful chromosome-l
 ├── Galaxy246-[Busco on dataset 218_ Short summary - Specific lineage].txt   # BUSCO — Haplotype 2
 ├── Galaxy233-[Fasta Statistics on dataset 224_ summary stats].tabular       # Assembly stats — Haplotype 1
 ├── Galaxy237-[Fasta Statistics on dataset 218_ summary stats].tabular       # Assembly stats — Haplotype 2
-├── Galaxy76-[GenomeScope_on_dataset_54_Linear_plot].png             # GenomeScope k-mer profile
-└── Merqury_QV_stats/                                                # Merqury QV tabular files
-    ├── output_merqury_assembly_01.tabular
-    ├── output_merqury_assembly_02.tabular
-    └── output_merqury.tabular
+├── Galaxy76-[GenomeScope on dataset 54 Linear plot].png             # GenomeScope k-mer profile
+├── output_merqury.assembly_01.tabular                               # Merqury QV — Haplotype 1
+├── output_merqury.assembly_02.tabular                               # Merqury QV — Haplotype 2
+└── output_merqury.tabular                                           # Merqury QV — Combined
 ```
 
 ---
